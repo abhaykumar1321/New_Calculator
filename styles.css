@@ -90,3 +90,41 @@ button {
     cursor: pointer;
     transition: all 200ms ease;
 }
+
+button:hover {
+    transform: scale(1.15);
+}
+
+button#equal {
+    height: 130px;
+}
+
+.calculatorTheme {
+            background-color: #fff;
+}
+
+.calculatorTheme #display {
+    color: #0a1e23;
+}
+
+.calculatorTheme button#clear {
+    background-color: #ffd5d8;
+    color: #fc4552;
+}
+
+.calculatorTheme button.btnNumber {
+    background-color: #c3eaff;
+    color: #000;
+}
+
+.calculatorTheme button.btnoperator {
+    background-color: #ffd0fd;
+    color: #fff7f7;
+}
+
+.calculatorTheme button.btnoperator#equal {
+    background-color: #adf9e7;
+    color: #000;
+}
+
+
