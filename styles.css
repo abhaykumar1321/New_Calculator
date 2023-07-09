@@ -128,3 +128,30 @@ button#equal {
 }
 
 
+.calculatorTheme.Dark {
+    background-color: #071115;
+}
+
+.calculatorTheme.Dark #display {
+    color: #f8fafd;
+}
+
+.calculatorTheme.Dark button#clear {
+    background-color: #2d191e;
+    color: #bd3740;
+}
+
+.calculatorTheme.Dark button.btnNumber {
+    background-color: #1b2f38;
+    color: #f8fafb;
+  }
+
+  .calculatorTheme.Dark button.btnoperator {
+    background-color: #2e1f39;
+    color: #aa00a4;
+  }
+  
+  .calculatorTheme.Dark button.btn-equal {
+    background-color: #223323;
+    color: #ffffff;
+  }
